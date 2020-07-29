@@ -2,6 +2,8 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import { Layout } from "antd"
 
+import "./style.scss"
+
 export default function LayoutAdmin(props) {
   const {routes} = props
   const {Header, Footer, Content} = Layout

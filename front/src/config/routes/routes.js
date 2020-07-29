@@ -1,5 +1,5 @@
-import Layout from '../../components/template/Layout/LayoutAdmin'
-import BasicLayout from '../../components/template/Layout/LayoutAdmin'
+import Layout from "../../components/template/Layout/admin/LayoutAdmin"
+import BasicLayout from "../../components/template/Layout/basic/LayoutBasic"
 
 import Admin from "../../pages/Admin"
 import Signin from "../../pages/Signin"
