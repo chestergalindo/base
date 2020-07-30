@@ -4,13 +4,18 @@ import { Layout } from "antd"
 
 export default function LayoutAdmin(props) {
   const {routes} = props
-  const { Footer, Content} = Layout
+  const { Header, Footer, Content} = Layout
   return (
     <Layout>
-      <Content>
-        <LoadRoutes routes={routes} />
-      </Content>
-      <Footer>footer</Footer>
+      <Layout>
+        <Header>
+          
+        </Header>
+        <Content>
+          <LoadRoutes routes={routes} />
+        </Content>
+        <Footer>footer</Footer>
+      </Layout>
     </Layout>
   )
 }
