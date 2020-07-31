@@ -1,0 +1,40 @@
+@import "../../../Style/index.scss";
+
+.menu-top{
+  display: flex;
+  justify-content: center;
+  &__right,
+  &__left{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__left{
+    &-logo{
+      width: 200px;
+      padding: 0 10px;
+      height: min-content;
+    }
+  }
+
+  &__right{
+    position: absolute;
+    right: 5px;
+    top:5px;
+  }
+
+  button{
+    color: $font-ligth;
+    background-color: transparent;
+    border: 0;
+
+    &:hover{
+      color:$primary-color;
+    }
+    &:active,
+    &:focus{
+      color:$font-ligth
+    }
+  }
+}
+
